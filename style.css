@@ -164,13 +164,19 @@ text-align: center;
     font-weight: 500;
 }
 .batimg2{
-    width:276px;
+    width:100%;
     height: 336px;
 }
 .batimg2 img{
     width: 100%;
     height: 100%;
     border-radius: 15px;
+}
+.twone{
+    width: 50%;
+}
+.twtwo{
+    width: 50%;
 }
 .tworld{
     padding: 60px 0  00 0 ;
@@ -209,10 +215,13 @@ text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-wrap: wrap; */
+    gap: .5rem;
+}
+.twimg{
+    width: 100%;
 }
 .twimg1{
-    width: 584px !important;
+    width: 100%px !important;
     height: 370px !important;
     text-align: center;
     margin: 5px 3px ;
@@ -223,7 +232,7 @@ text-align: center;
     border-radius: 15px;
 }
 .twimg2{
-    width: 584px !important;
+    width: 100% !important;
     height: 415px !important;
     text-align: center;
     margin: 5px 3px ;
@@ -602,7 +611,7 @@ text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
   }
   
   .top-curve {
