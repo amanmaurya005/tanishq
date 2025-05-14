@@ -3,6 +3,7 @@
 .all{
     flex-wrap: wrap !important;
 }
+
 .form{
     width: unset !important;
 }
@@ -16,10 +17,10 @@ padding: unset !important;
     margin: 10px 0 !important;
     padding: unset !important;
 }
-.navbar-toggler{
-    background-color: blue;
-    border: solid 5px black;
+.icons{
+    margin: 0 0 0 15px !important;
 }
+
 .offer h1{
     font-size: 18px !important;
 }
@@ -71,6 +72,7 @@ padding: unset !important;
 }
 .twimg1,.twimg2{
     width:100%  !important;
+    height: unset !important;
 }
 .twimg1,.twimg2 img{
     width: 100% !important;
@@ -117,6 +119,9 @@ padding: unset !important;
     align-items: center;
     position: absolute !important;
     left: 0px !important;
+}
+.bgimg1 p{
+    display: none;
 }
 .bgimg1{
     width: 100% !important;
@@ -278,7 +283,9 @@ padding: unset !important;
     bottom: 50px;
     left: 20px;
 }
-
+.tepara p{
+    font-size: unset !important;
+}
 
 
 
@@ -356,7 +363,11 @@ padding: unset !important;
     .twmain{
         flex-wrap: wrap;
     }
-    
+    .navbar-toggler{
+        background-color: #fff !important;
+        border: solid 2px black !important;
+        border-radius: 8px !important;
+    }
     .assu1 h1{
         font-size: 34px !important;
     }
@@ -485,6 +496,9 @@ padding: unset !important;
     .bg{
         height: 520px !important;
     }
+    .bgtwo{
+        left: 0px !important;
+    }
     .assu1 h1{
         font-size: 34px !important;
     }
@@ -592,7 +606,9 @@ padding: unset !important;
         height: unset !important;
     }
 
-
+    .list{
+        margin: 0 0 0 20px;
+    }
 
 
 }
