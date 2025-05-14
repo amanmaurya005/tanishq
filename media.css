@@ -172,6 +172,7 @@ padding: unset !important;
 .genimg img{
     width: 100% !important;
     height: 86% !important;
+    object-fit: contain;
 }
 .gmain{
     flex-wrap: wrap;
